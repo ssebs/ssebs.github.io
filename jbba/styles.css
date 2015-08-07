@@ -1,0 +1,203 @@
+* {
+    /* Unhide these to "debug" and show all the borders of divs. */
+    /*
+    border-width: thin;
+    border-color: magenta;
+    border-style: solid;
+*/
+}
+/*rgba(255, 255, 255, .5) is the main border color for everything */
+.Pics {
+    border-color: rgba(95,243 ,262 , .75);
+    border-radius: .25em;
+    border-width: thick;
+    border-style: solid;
+}
+button {
+    outline: none;
+}
+#BannerLogo {
+    margin: auto;
+    background-color: rgba(255, 120, 225, .75);
+    border-color: rgba(95,243 ,262 , .75);
+    border-radius: .25em;
+    border-width: thick;
+    border-style: solid;
+    text-align: center;
+    width: 60%;
+    margin-bottom: .25em;
+    margin-top: .25em;
+    color: blue;
+    font-size: 3em;
+    font-family: sans-serif;
+}
+#InnerBody {
+    padding: .5em;
+}
+.Body {
+    margin: auto;
+    width: 60%;
+    background-color: rgba(255, 120, 225, .75);
+    border-color: rgba(95,243 ,262 , .75);
+    border-width: thick;
+    border-radius: 1em;
+    border-style: solid;
+    text-align: center;
+}
+.BodyHome {
+    margin: auto;
+    width: 50em;
+    background-color: rgba(255, 120, 225, .75);
+    border-radius: 1em;
+    border-color: rgba(95,243 ,262 , .75);
+    border-width: thick;
+    border-style: solid;
+    text-align: center;
+}
+body {
+    background-image: url(Images/background.jpg);
+    color: blue;
+}
+::selection {
+    background: rgba(95,243 ,262 , .75);
+    background-color: rgba(255, 120, 225, .75);
+    text-shadow: none;
+}
+#NavBar {
+    text-align: center;
+    width: 45%;
+    color: blue;
+    margin: auto;
+    background-color: rgba(255, 120, 225, .75);
+    border-color: rgba(95,243 ,262 , .75);
+    border-radius: 1em;
+    border-width: thick;
+    border-style: solid;
+}
+#NavBar a {
+    color: blue;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    color: blue;
+}
+li {
+    margin: .25em;
+    display: inline-block;
+    border-left-color: blue;
+    border-radius: 1em;
+    border-left-width: thick;
+    border-style: solid;
+    text-align: center;
+    font-size: 1.5em;
+    color: blue;
+    font-family: sans-serif;
+}
+#LiRight {
+    display: inline;
+    border-left-color: blue;
+    border-right-color: blue;
+    border-radius: 1em;
+    border-left-width: thick;
+    border-style: solid;
+    text-align: center;
+    font-size: 1.5em;
+    color: blue;
+    font-family: sans-serif;
+}
+#Title {
+    /*    Keep The Border, etc. The .body background & border doesn't apply here.    */
+    margin: auto;
+    padding: 0em;
+    background-color: rgba(255, 120, 225, .75);
+    border-color: rgba(95,243 ,262 , .75);
+    border-radius: 1em;
+    border-width: thick;
+    border-style: solid;
+    text-align: center;
+    width: 50em;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    color: blue;
+}
+footer {
+    /*    Keep The Border, etc. The .body background & border doesn't apply here.    */
+    margin: auto;
+    background-color: rgba(255, 120, 225, .75);
+    border-color: rgba(95,243 ,262 , .75);
+    border-radius: .75em;
+    border-width: thick;
+    border-style: solid;
+    text-align: center;
+    width: 60%;
+    color: blue;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    margin-top: .5em;
+}
+.BackDrop {
+    margin: auto;
+    text-align: center;
+    margin-top: .5em;
+    border-bottom-color: rgba(95,243 ,262 , .75);
+    border-radius: .25em;
+    border-bottom-width: thick;
+    border-bottom-style: solid;
+    margin-bottom: .5em;
+}
+.BackDropText {
+    color: blue;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    margin: auto;
+    text-align: center;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    border-bottom-color: rgba(95,243 ,262 , .75);
+    border-bottom-width: thick;
+    border-bottom-style: solid;
+}
+#FixEE {
+    margin: auto;
+    height: 5%;
+    width: 15%;
+    background-color: rgba(95,243 ,262 , .75);
+    font-family: sans-serif;
+}
+#H2 {
+    font-family: sans-serif;
+    padding: 0em;
+}
+p {
+    color: blue;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    padding: 1em;
+}
+.Container {
+    color: blue;
+    margin: auto;
+    width: 30%;
+    clear: both;
+}
+.Container input {
+    width: 100%;
+    clear: both;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    color: rgba(95, 243, 262, .75);
+}
+a {
+    text-decoration: none;
+}

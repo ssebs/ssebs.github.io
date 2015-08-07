@@ -1,0 +1,282 @@
+logi* {
+    /* Unhide these to "debug" and show all the borders of divs. */
+    /*
+    border-width: thin;
+    border-color: magenta;
+    border-style: solid;
+*/
+}
+*{
+	font-family: sans-serif;
+}
+button{
+    outline: none;
+}
+#BannerLogo {
+    margin: auto;
+    background-color: rgba(1, 1, 1, .25);
+    border-color: rgba(255,255,255,.5);
+    border-radius: .25em;
+    border-width: thick;
+    border-style: solid;
+    text-align: center;
+    width: 60%;
+    margin-bottom: .25em;
+    margin-top: .25em;
+    color: rgba(255,255,255,.5);
+    font-size: 4em;
+    font-family: sans-serif;
+}
+#InnerBody {
+    padding: .5em;
+}
+.Body {
+    margin: auto;
+    width: 69%;
+    background-color: rgba(1, 1, 1, .25);
+    border-color: rgba(255,255,255,.5);
+    border-width: thick;
+    border-radius: 1em;
+    border-style: solid;
+    text-align: center;
+}
+.BodyHome {
+    margin: auto;
+    width: 69%;
+    background-color: rgba(1, 1, 1, .25);
+    border-radius: 1em;
+    border-color: rgba(255,255,255,.5);
+    border-width: thick;
+    border-style: solid;
+    text-align: center;
+}
+body {
+    background-image: url(background.jpg);
+    color:rgba(255,255,255,.5);
+}
+::selection {
+    background: #803018;
+    background-color: rgba(1, 1, 1, 1);
+    text-shadow: none;
+}
+#NavBar {
+    text-align: center;
+    width: 69%;
+    color: rgba(255,255,255,);
+    margin: auto;
+    background-color: rgba(1, 1, 1, .25);
+    border-color: rgba(255,255,255,.5);
+    border-radius: 1em;
+    border-width: thick;
+    border-style: solid;
+}
+#NavBar a {
+    color: rgba(255,255,255,.5);
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    color: rgba(255,255,255,.5);
+}
+#normal{
+border:;
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    color: rgba(255,255,255,.5);
+}
+li {
+    margin: .35em;
+    display: inline-block;
+    border-left-color: rgba(255,255,255,.5);
+    border-radius: 1em;
+    border-left-color: thick;
+    border-style: solid;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgba(255,255,255,.5);
+    font-family: sans-serif;
+}
+#normalli {
+    margin: .35em;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgba(255,255,255,.5);
+    font-family: sans-serif;
+}
+#LiRight {
+    display: inline;
+    border-left-color: rgba(255,255,255,.5);
+    border-right-color: rgba(255,255,255,.5);
+    border-radius: 1em;
+    border-left-color: thick;
+    border-style: solid;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgba(255,255,255,.5);
+    font-family: sans-serif;
+}
+#Title {
+    /*    Keep The Border, etc. The .body background & border doesn't apply here.    */
+    margin: auto;
+    background-color: rgba(1, 1, 1, .25);
+    border-color: rgba(255,255,255,.5);
+    border-radius: 1em;
+    border-width: thick;
+    border-style: solid;
+    text-align: center;
+    width: 69%;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    color: rgba(255,255,255,.5);
+}
+footer {
+    /*    Keep The Border, etc. The .body background & border doesn't apply here.    */
+    margin: auto;
+    background-color: rgba(1, 1, 1, .25);
+    border-color: rgba(255,255,255,.5);
+    border-radius: .75em;
+    border-width: thick;
+    border-style: solid;
+    text-align: center;
+    width: 69%;
+    color: rgba(255,255,255,.5);
+    font-family: sans-serif;
+    font-size: 1.5em;
+    margin-top: .5em;
+}
+.BackDrop {
+    margin: auto;
+    text-align: center;
+    margin-top: .5em;
+    border-bottom-color: rgba(255,255,255,.5);
+    border-radius: .25em;
+    border-bottom-width: thick;
+    border-bottom-style: solid;
+    margin-bottom: .5em;
+}
+.BackDropText {
+    color: rgba(255,255,255,.5);
+    font-family: sans-serif;
+    font-size: 1.5em;
+    margin: auto;
+    text-align: center;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    border-bottom-color: rgba(255,255,255,.5);
+    border-bottom-width: thick;
+    border-bottom-style: solid;
+}
+#FixEE {
+    margin: auto;
+    height: 5%;
+    width: 15%;
+    background-color: rgba(255,255,255,.5);
+    font-family: sans-serif;
+}
+.BackDropEasterEgg {
+    margin: auto;
+    border-bottom-color: rgba(255,255,255,.5);
+    border-bottom-width: thick;
+    border-bottom-style: solid;
+    text-align: center;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+.BackDropTextEasterEgg {
+    color: rgba(255,255,255,.5);
+    font-family: sans-serif;
+    font-size: 1.5em;
+    margin: auto;
+    text-align: center;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    position: relative;
+    border-bottom-color: rgba(255,255,255,.5);
+    border-bottom-width: thick;
+    border-bottom-style: solid;
+}
+#H2 {
+    color: rgba(255,255,255,.5);
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+p {
+    color: rgba(255,255,255,.5);
+    font-family: sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    padding: 1em;
+}
+xmp {
+    font-size: 1em;
+    text-align: left;
+    padding: 1em;
+}
+#TitleChanger {
+    margin: auto;
+    display: block;
+    width: 30%;
+    height: 3em;
+    background-color: rgba(255,255,255,.5);
+    border-color: rgba(1, 1, 1, .25);
+    font-family: sans-serif;
+    font-size: 1em;
+}
+#SpamButton {
+    width: 30%;
+    height: 3em;
+    background-color: rgba(255,255,255,.5);
+    color: rgba(1, 1, 1, ,1);
+    border-color: rgba(1, 1, 1, .25);
+    font-family: sans-serif;
+    font-size: 1em;
+}
+#CrasherButton {
+    margin: auto;
+    display: block;
+    width: 30%;
+    height: 3em;
+    background-color: rgba(255,255,255,.5);
+    color: rgba(1, 1, 1, 1);
+    border-color: rgba(1, 1, 1, .25);
+    font-family: sans-serif;
+    font-size: 1em;
+}
+#PercentButton {
+    margin: auto;
+    display: block;
+    width: 30%;
+    height: 3em;
+    background-color: rgba(255,255,255,.5);
+    color: rgba(1, 1, 1, 1);
+    border-color: rgba(1, 1, 1, .25);
+    font-family: sans-serif;
+    font-size: 1em;
+}
+.Container {
+    color: rgba(255,255,255,.5);
+    margin: auto;
+    width: 30%;
+    clear: both;
+}
+.Container input {
+    width: 100%;
+    clear: both;
+}
+a:link {
+    color: #666666;
+}
+a:visited {
+    color: #666666;
+}
+a:hover {
+    color: rgba(255,255,255,.5);
+}
+a {
+    text-decoration: none;
+}
