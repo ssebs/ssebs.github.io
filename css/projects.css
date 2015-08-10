@@ -1,7 +1,7 @@
 .version.projects /* version checker */
 {
-	color: #000015;
-	background-color: #098D08;
+	color: #000000;
+	background-color: #90F7CB;
 }
 
 .html
@@ -13,10 +13,9 @@
 {
 	z-index: 1;
 	width: 960px;
-	min-height: 499.95000000000005px;
+	min-height: 500px;
 	border-style: none;
 	border-color: #000000;
-	padding-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 	background: #3F3F3F url("../images/backgroundtexture-page-fr.png") no-repeat center center;
@@ -38,7 +37,7 @@
 
 #u213
 {
-	z-index: 44;
+	z-index: 62;
 	width: 172px;
 	margin-right: -10000px;
 	margin-top: 6px;
@@ -46,14 +45,14 @@
 
 #u206
 {
-	z-index: 47;
+	z-index: 65;
 	width: 57px;
 	margin-right: -10000px;
 }
 
 #u142
 {
-	z-index: 45;
+	z-index: 63;
 	width: 115px;
 	margin-right: -10000px;
 	margin-top: 14px;
@@ -65,7 +64,7 @@
 	z-index: 3;
 	width: 431px;
 	margin-right: -10000px;
-	left: 474px;
+	left: 244px;
 }
 
 #u150
@@ -321,11 +320,6 @@
 	left: 120px;
 }
 
-#u186,#u191
-{
-	width: 142px;
-}
-
 #u192
 {
 	width: 140px;
@@ -334,13 +328,6 @@
 }
 
 #u192:hover
-{
-	width: 140px;
-	min-height: 0px;
-	margin: 0px -10000px 0px 0px;
-}
-
-#u192.MuseMenuActive
 {
 	width: 140px;
 	min-height: 0px;
@@ -374,6 +361,150 @@
 	padding-bottom: 0px;
 	min-height: 13px;
 	width: 105px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u613
+{
+	width: 140px;
+	padding-bottom: 4px;
+	margin-right: -10000px;
+}
+
+#u192.MuseMenuActive,#u613:hover
+{
+	width: 140px;
+	min-height: 0px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u616-4
+{
+	width: 52px;
+	min-height: 13px;
+	padding-left: 2px;
+	padding-top: 4px;
+	padding-right: 2px;
+	margin-right: -10000px;
+	top: 2px;
+	left: 40px;
+}
+
+#u613:hover #u616-4
+{
+	padding-top: 4px;
+	padding-bottom: 0px;
+	min-height: 13px;
+	width: 52px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u613.MuseMenuActive #u616-4
+{
+	padding-top: 4px;
+	padding-bottom: 0px;
+	min-height: 13px;
+	width: 52px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u626
+{
+	width: 140px;
+	padding-bottom: 4px;
+	margin-right: -10000px;
+}
+
+#u613.MuseMenuActive,#u626:hover
+{
+	width: 140px;
+	min-height: 0px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u628-4
+{
+	width: 68px;
+	min-height: 13px;
+	padding-left: 2px;
+	padding-top: 4px;
+	padding-right: 2px;
+	margin-right: -10000px;
+	top: 2px;
+	left: 32px;
+}
+
+#u626:hover #u628-4
+{
+	padding-top: 4px;
+	padding-bottom: 0px;
+	min-height: 13px;
+	width: 68px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u626.MuseMenuActive #u628-4
+{
+	padding-top: 4px;
+	padding-bottom: 0px;
+	min-height: 13px;
+	width: 68px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u186,#u191,#u610,#u623,#u636
+{
+	width: 142px;
+}
+
+#u639
+{
+	width: 140px;
+	padding-bottom: 4px;
+	margin-right: -10000px;
+}
+
+#u626.MuseMenuActive,#u639:hover
+{
+	width: 140px;
+	min-height: 0px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u639.MuseMenuActive
+{
+	width: 140px;
+	min-height: 0px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u641-4
+{
+	width: 74px;
+	min-height: 13px;
+	padding-left: 2px;
+	padding-top: 4px;
+	padding-right: 2px;
+	margin-right: -10000px;
+	top: 2px;
+	left: 29px;
+}
+
+#u639:hover #u641-4
+{
+	padding-top: 4px;
+	padding-bottom: 0px;
+	min-height: 13px;
+	width: 74px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u639.MuseMenuActive #u641-4
+{
+	padding-top: 4px;
+	padding-bottom: 0px;
+	min-height: 13px;
+	width: 74px;
 	margin: 0px -10000px 0px 0px;
 }
 
@@ -459,12 +590,12 @@
 
 #u492-4
 {
-	z-index: 49;
+	z-index: 67;
 	width: 461px;
 	min-height: 193px;
 	background-color: transparent;
-	line-height: 28px;
 	font-size: 23px;
+	line-height: 28px;
 	margin-left: 250px;
 	margin-top: 77px;
 	position: relative;
