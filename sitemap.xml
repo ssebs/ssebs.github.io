@@ -91,12 +91,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://ssebs.github.io/images/logo.jpg</loc>
-    <lastmod>2015-08-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://ssebs.github.io/images/plat.jpg</loc>
     <lastmod>2015-08-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -110,6 +104,12 @@
   </url>
   <url>
     <loc>http://ssebs.github.io/images/bp.jpg</loc>
+    <lastmod>2015-08-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://ssebs.github.io/images/unnamed.jpg</loc>
     <lastmod>2015-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

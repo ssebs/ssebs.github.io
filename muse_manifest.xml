@@ -1,10 +1,10 @@
-<manifest alg="2" build="2015.0.1.310" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="ssebs.github.io" resolutions="1x" timestamp="1439232576893">
+<manifest alg="2" build="2015.0.1.310" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="ssebs.github.io" resolutions="1x" timestamp="1439244006637">
   <folder name="css">
     <file name="site_global.css" crc="4052507572"/>
     <file name="master_a-master.css" crc="4199805316" ref="about:projects:perishable-punchers:minecraft-mod:index:games:sir-flap-a-lot:platformer:breakout-pong"/>
     <file name="about.css" crc="244800727" ref="about"/>
     <file name="projects.css" crc="9500619" ref="projects"/>
-    <file name="perishable-punchers.css" crc="465723011" ref="perishable-punchers"/>
+    <file name="perishable-punchers.css" crc="4001966564" ref="perishable-punchers"/>
     <file name="minecraft-mod.css" crc="498111999" ref="minecraft-mod"/>
     <file name="index.css" crc="3953789615" ref="index"/>
     <file name="games.css" crc="255947692" ref="games"/>
@@ -30,7 +30,7 @@
     <file name="touchswipe.js" crc="526709374" ref="minecraft-mod"/>
   </folder>
   <folder name="images">
-    <file name="a-master-favicon.ico" crc="3953471542" ref="index"/>
+    <file name="a-master-favicon.ico" crc="3953471542" ref="index:perishable-punchers"/>
     <file name="backgroundtexture-page-fr.png" crc="498960554" ref="index:about:projects:minecraft-mod:games:perishable-punchers:platformer:sir-flap-a-lot:breakout-pong"/>
     <file name="sforlogo-01.png" crc="4211534941" seo="true" ref="index:about:projects:minecraft-mod:games:perishable-punchers:platformer:sir-flap-a-lot:breakout-pong"/>
     <file name="ssebs.png" crc="4057231911" seo="true" ref="index:about:projects:minecraft-mod:games:perishable-punchers:platformer:sir-flap-a-lot:breakout-pong"/>
@@ -66,17 +66,17 @@
     <file name="opspade-crop-u458.jpg" crc="214728104" ref="minecraft-mod"/>
     <file name="opsword-crop-u467.jpg" crc="3766984516" ref="minecraft-mod"/>
     <file name="loading.gif" crc="3815509949" ref="minecraft-mod"/>
-    <file name="logo.jpg" crc="159636241" seo="true" ref="perishable-punchers"/>
     <file name="plat.jpg" crc="4235815754" seo="true" ref="platformer"/>
     <file name="flap.jpg" crc="314013232" seo="true" ref="sir-flap-a-lot"/>
     <file name="bp.jpg" crc="407407948" seo="true" ref="breakout-pong"/>
+    <file name="unnamed.jpg" crc="4258166716" seo="true" ref="perishable-punchers"/>
   </folder>
   <file name="index.html" crc="111344541" seo="true" mt="1439230816295" redirect="true"/>
   <file name="about.html" crc="4205176593" seo="true" mt="1439230816295" redirect="true"/>
   <file name="projects.html" crc="4008641592" seo="true" mt="1439230816295" redirect="true"/>
   <file name="minecraft-mod.html" crc="392761356" seo="true" mt="1439230816295" redirect="true"/>
   <file name="games.html" crc="3879774381" seo="true" mt="1439230816295" redirect="true"/>
-  <file name="perishable-punchers.html" crc="3995565027" seo="true" mt="1439230816295" redirect="true"/>
+  <file name="perishable-punchers.html" crc="3942379812" seo="true" mt="1439243847881" redirect="true"/>
   <file name="platformer.html" crc="368655524" seo="true" mt="1439232188075" redirect="true"/>
   <file name="sir-flap-a-lot.html" crc="4204834247" seo="true" mt="1439232174580" redirect="true"/>
   <file name="breakout-pong.html" crc="219140558" seo="true" mt="1439232545726" redirect="true"/>
