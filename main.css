@@ -1,5 +1,6 @@
  @charset"UTF-8";
  /* Main CSS */
+ /*TODO: fix animations in FF*/
  /*
 *
 */
@@ -43,6 +44,8 @@
      border-radius: 0.25em;
      text-decoration: none;
      transition: border-radius 0.5s, font-size 0.5s;
+     -webkit-transition: border-radius 0.5s, font-size 0.5s;
+     -moz-transition: border-radius 0.5s, font-size 0.5s;
  }
  /*Grows */
  
@@ -61,6 +64,8 @@
      padding: 0 1em;
      border: 10px solid transparent;
      transition: border 0.25s, color 0.25s;
+     -webkit-transition: border 0.25s, color 0.25s;
+     -moz-transition: border 0.25s, color 0.25s;
  }
  /*Hover trans*/
  
@@ -136,7 +141,9 @@
      border: 2px solid white;
      text-align: center;
      text-decoration: none;
-     transition: border 0.5s, background 0.5s, ;
+     transition: border 0.5s, background 0.5s;
+     -webkit-transition: border 0.5s, background 0.5s;
+     -moz-transition: border 0.5s, background 0.5s;
  }
  /*Color change trans*/
  
@@ -161,7 +168,9 @@
      border: 2px solid white;
      text-align: center;
      text-decoration: none;
-     transition: border 0.5s, background 0.5s, ;
+     transition: border 0.5s, background 0.5s;
+     -webkit-transition: border 0.5s, background 0.5s;
+     -moz-transition: border 0.5s, background 0.5s;
  }
  /*Color change trans*/
  
