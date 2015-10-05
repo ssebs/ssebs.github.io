@@ -1,13 +1,26 @@
  @charset"UTF-8";
- /* Main CSS */
- /*
-*
-*/
- /*MAKE ALL STYLESHEETS INTO ONE FOLDER< ORGANIZE EVERYTHING*/
+ /* Main CSS, made by ssebs */
  /* Sets line height, helpful for adding nicelink*/
  
  p {
      line-height: 1.5em;
+ }
+ /*Default font for document*/
+ 
+ body {
+     font-family: Arial, sans-serif;
+     color: #444;
+ }
+ /*Margin for main content*/
+ 
+ section {
+     margin: 1em 2em 1em 2em;
+ }
+ /*Keeps footer on bottom*/
+ 
+ footer {
+     padding-top: 2em;
+     clear: both;
  }
  /*Image border*/
  
@@ -36,28 +49,8 @@
  .blueBG {
      background-color: rgb(65, 175, 255);
  }
- /*Github link*/
+ /*Changes line height of the title text*/
  
- .githubBtn {
-     font-size: 24px;
-     position: relative;
-     bottom: 0.35em;
-     border: 1px solid rgb(65, 175, 255);
-     color: white;
-     background-color: rgb(65, 175, 255);
-     padding: 0.25em;
-     border-radius: 0.25em;
-     text-decoration: none;
-     transition: border-radius 0.5s, font-size 0.5s;
-     -webkit-transition: border-radius 0.5s, font-size 0.5s;
-     -moz-transition: border-radius 0.5s, font-size 0.5s;
- }
- /*Grows */
- 
- .githubBtn:hover {
-     border-radius: 0.75em;
-     font-size: 32px;
- }
  #titleTxt {
      line-height: 2em;
  }
@@ -97,12 +90,6 @@
  .logo:hover {
      width: 150px;
  }
- /*Default font for document*/
- 
- body {
-     font-family: Arial, sans-serif;
-     color: #444;
- }
  /*Logo, ssebs, and github */
  
  #topRow {
@@ -121,30 +108,18 @@
  .centerText {
      text-align: center;
  }
- /*Margin for main content*/
- 
- section {
-     margin: 1em 2em 1em 2em;
- }
- /*Keeps footer on bottom*/
- 
- footer {
-     padding-top: 2em;
-     clear: both;
- }
  /*Nav Styling*/
  
  li {
      display: inline-block;
      margin: 2% 1%;
-     padding: 4px 4px 4px 4px;
  }
  /*Changes color of link*/
  
  li a {
      color: white;
      background-color: rgb(65, 175, 255);
-     padding: 3px;
+     padding: 0.25em;
      border: 2px solid white;
      text-align: center;
      text-decoration: none;
