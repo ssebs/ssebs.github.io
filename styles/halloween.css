@@ -1,6 +1,30 @@
  @charset"UTF-8";
  /* Week 4 CSS */
- 
+
+ header {
+     background: -webkit-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+     background: -o-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+     background: -moz-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+     background: linear-gradient(45deg, white 0%, orange 75%, black 100%);
+     color: black;
+     padding: 10px;
+ }
+ footer {
+     background: -webkit-linear-gradient(45deg, black 0%, orange 75%, white 100%);
+     background: -o-linear-gradient(45deg, black 0%, orange 75%, white 100%);
+     background: -moz-linear-gradient(45deg, black 0%, orange 75%, white 100%);
+     background: linear-gradient(45deg, black 0%, orange 75%, white 100%);
+     color: black;
+     padding: 10px;
+     border: 8px solid #000
+ }
+ section {
+     border: 8px #000 solid;
+     padding: 1em;
+ }
+ html {
+     background-image: url(../week4/images/web.png);
+ }
  footer {
      font-size: 0.8em;
  }
@@ -17,25 +41,30 @@
      text-align: center;
  }
  body {
+     width: 800px;
+     margin: auto;
      background-color: rgba(0, 0, 0, 1);
-     background-image: url(images/background.jpg);
      background-repeat: no-repeat;
      background-size: 100%;
-     background-color: black;
+     background-color: white;
      font-size: 24px;
+     box-shadow: -10px 10px 20px #111;
  }
  header {
      color: orange;
+     border: 8px solid #000
  }
  img {
      transition: width 0.25s;
  }
  img:hover {
-     width: 20%;
+     width: 200px;
  }
  h1 {
      transition: font-size 0.5s, color 0.5s;
-     text-shadow: 5px 8px 10px #111;
+     /*     text-shadow: 5px 8px 10px #111;*/
+     font-size: 3em;
+     color: red;
  }
  h1:hover {
      font-size: 84px;
@@ -63,7 +92,7 @@
      }
  }
  /*display inline needs to change based on screen size*/
- 
+
  li {
      font-size: 24px;
      padding: 0 10px 0 10px;
@@ -86,19 +115,17 @@
  }
  .container {
      width: 100%;
-     background-color: rgba(0, 0, 0, 0.7);
-     background-image: url(images/web.png);
-     background-repeat: no-repeat;
-     background-size: 100%;
-     border: 0px;
+     /*     border: 8px solid #000;*/
+     /*     text-shadow: 0 0 0 #111;*/
  }
  .content {
      color: red;
-     width: 75%;
+     width: 100%;
      margin: auto;
      padding: 25px;
-     ;
-     background-color: rgb(72, 2, 2);
+     background-color: #373737;
+     border: 8px solid #000;
+     /*     text-shadow: 0 0 0 #111;*/
  }
  .orangeText {
      color: orange;
@@ -123,20 +150,25 @@
      padding-top: 5px;
      background-color: #9f0000;
      margin: 0px -25px 0px -25px;
+     display: block;
+     margin: 2em;
+ }
+ #nav p {
+     display: inline-block;
+     border: 2px orange solid;
  }
  /*
 *All font code, keep at bottom
 *
 */
- 
+
  @font-face {
      font-family: 'charbbreg';
      src: url('./charbbreg.eot');
-     src: local('charbbreg'), url('./charbbreg.woff') format('woff'), url('./charbbreg.ttf') format('truetype');
+     src: local('charbbreg'), url('../../week4/charbbreg.woff') format('woff'), url('./charbbreg.ttf') format('truetype');
  }
  .font {
      font-family: charbbreg;
-     color: orangered;
      letter-spacing: 2px;
  }
  li a:hover {
@@ -148,12 +180,12 @@
      font-size: 32px;
  }
  /* unvisited link */
- 
+
  a:link {
      color: orange;
  }
  /* visited link */
- 
+
  a:visited {
      color: orange;
  }
