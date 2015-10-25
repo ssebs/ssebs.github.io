@@ -245,3 +245,12 @@ li a:active {
         margin: auto;
     }
 }
+
+/*Set Cursors*/
+
+body {
+    cursor: url("cursors/ptr.png"), auto;
+}
+a {
+    cursor: url("cursors/hand.png"), auto;
+}
