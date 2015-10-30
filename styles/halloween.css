@@ -1,6 +1,6 @@
  @charset"UTF-8";
  /* Week 4 CSS */
-
+ 
  header {
      background: -webkit-linear-gradient(45deg, white 0%, orange 75%, black 100%);
      background: -o-linear-gradient(45deg, white 0%, orange 75%, black 100%);
@@ -23,7 +23,7 @@
      padding: 1em;
  }
  html {
-     background-image: url(../week4/images/web.png);
+     background-image: url(../week4/halloween/images/web.png);
  }
  footer {
      font-size: 0.8em;
@@ -41,7 +41,7 @@
      text-align: center;
  }
  body {
-     width: 800px;
+     width: 750px;
      margin: auto;
      background-color: rgba(0, 0, 0, 1);
      background-repeat: no-repeat;
@@ -92,7 +92,7 @@
      }
  }
  /*display inline needs to change based on screen size*/
-
+ 
  li {
      font-size: 24px;
      padding: 0 10px 0 10px;
@@ -156,16 +156,18 @@
  #nav p {
      display: inline-block;
      border: 2px orange solid;
+     color: orange;
+     background-color: orangered
  }
  /*
 *All font code, keep at bottom
 *
 */
-
+ 
  @font-face {
      font-family: 'charbbreg';
      src: url('./charbbreg.eot');
-     src: local('charbbreg'), url('../../week4/charbbreg.woff') format('woff'), url('./charbbreg.ttf') format('truetype');
+     src: local('charbbreg'), url('../../week4/halloween/charbbreg.woff') format('woff'), url('./charbbreg.ttf') format('truetype');
  }
  .font {
      font-family: charbbreg;
@@ -180,12 +182,12 @@
      font-size: 32px;
  }
  /* unvisited link */
-
+ 
  a:link {
      color: orange;
  }
  /* visited link */
-
+ 
  a:visited {
      color: orange;
  }

@@ -226,6 +226,7 @@ li a:active {
     }
     li {
         display: block;
+        margin: 1em auto;
     }
     ul {
         display: inline;
@@ -240,6 +241,8 @@ li a:active {
     }
     #titleTxt {
         display: block;
+        text-align: center;
+        font-size: 1em;
     }
     .githubBtn {
         margin: auto;
@@ -253,4 +256,14 @@ body {
 }
 a {
     cursor: url("cursors/hand.png"), auto;
+}
+
+/*For the fixed title stuff*/
+
+#nav {
+    width: 100%;
+}
+#nav.stick {
+    position: fixed;
+    top: 0;
 }

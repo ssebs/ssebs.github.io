@@ -2,112 +2,63 @@
 <html>
 
 <head>
-    <title> SpoOoooOOooooky </title>
+    <title> Sebastian's Week 4</title>
     <meta charset="utf-8">
+    <meta name="description" content="Week 4 page, Haloween Page.">
     <link rel="stylesheet" type="text/css" href="../styles/normalize.css">
-    <link rel="stylesheet" type="text/css" href="../styles/halloween.css">
-    <meta name="description" content="BoOOooOooooOOOoOo!">
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+
+
+    </script>
+    <style>
+        iframe {
+            border: 3px solid rgb(65, 175, 255);
+        }
+
+    </style>
+    <script>
+        function iFrameShow() {
+            if (iframe.height == 800) {
+                $("#iframe").animate({
+                    height: "0"
+                }, "swing");
+                iframe.height = 0;
+            } else {
+                $("#iframe").animate({
+                    height: "800"
+                }, "swing");
+                iframe.height = 800;
+            }
+        }
+
+    </script>
 </head>
 
 <body>
-    <div class="content">
-        <header>
 
-            <h1 title="Ask me about transitions" class="center font">
-                    The Halloween Store    
-                </h1>
-        </header>
+    <h1 id="titleTxt" class="center centerText"><a title="Home" href="../">Sebastian's Week 4 page.</a></h1>
+    <div class="bg" style="height:0.5em;margin-top:1em;"></div>
 
-        <br>
-        <div style="border:8px solid #000;">
-            <div id="nav" class="center">
-                <p>Product categories:</p>
-                <ul class="orangeText">
+    <div class="container center centerText" style="width:95%;">
+        <p class="textBox indent">
+            This page is all about Halloween! The page will be uploaded a directory forward.
+        </p>
 
-                    <li>
-                        <a title="Props Page" href="products/index.html">Props</a>
-                    </li>
+        <p class="textBox indent">
+            View all of the work done at <a class="niceLink" title="Haloween Page" href="halloween/index.html">/halloween/</a>. Throughout that site, all of the given exercises have been completed.
+        </p>
 
-                    <li>
-                        <a title="Costumes Page" href="products/index.html">Costumes</a>
-                    </li>
+        <p class="textBox indent">
+            Or view the site in the embedded
+            <button title="Click to reveal iFrame" class="niceLink" onClick="iFrameShow()">iFrame</button> .
+        </p>
+        <iframe id="iframe" width="100%" height="0" src="halloween/index.html">SITE</iframe>
 
-                    <li>
-                        <a title="FX Page" href="products/index.html">Special Effects</a>
-                    </li>
+        <p class="centerText"><a class="niceLink" href="..">Home</a></p>
 
-                    <li>
-                        <a title="Masks Page" href="products/index.html">Masks</a>
-                    </li>
-
-                </ul>
-            </div>
-
-            <h2 class="center">
-                <img class="center" src="images/bats.png" alt="bats" width="100pxx" style="float:left; padding:0.5em; position:absolute;">
-                <br>For the little
-                <span class="font" id="goblin">Goblin</span> 
-                in all of us!
-            </h2>
-            <br>
-            <br>
-            <br>
-            <br>
-        </div>
-
-        <br>
-        <br>
-
-        <section>
-
-            <div class="">
-
-                <h3 style="clear:both;" class="center">Welcome to my site. Please come in and stay awhile.</h3>
-                <h4 class="orangeText">
-        I started this web site because Halloween has always been my favorite holiday. But during the last year, I started selling some of my favorite Halloween products, and they've become quite a hit.
-                </h4>
-
-            </div>
-
-            <div>
-                <img class="center" src="images/spider.png" alt="spider" width="25%">
-            </div>
-
-            <h5>
-        If you click on the Personal link, you can browse my favorite Halloween pictures, stories, and films. And if you join my email list, I will keep you up-to-date on all things Halloween.
-                </h5>
-
-            <br>
-
-            <div class="center">
-
-                <h6 class="orangeText center"><u>My guarentee</u></h6>
-
-                <p>
-                    <strong>
-            If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund.
-                    <em>No questions asked!</em>
-                    </strong>
-                </p>
-
-            </div>
-
-
-        </section>
-
-        <br>
-
-
-        <footer class="center">
-            <p> &copy;2016 Sebastian Safari</p>
-            <br>
-            <p class="center homeBtn noIndent"><a href="..">Home</a>
-        </footer>
     </div>
-
-
-
 </body>
 
 </html>
