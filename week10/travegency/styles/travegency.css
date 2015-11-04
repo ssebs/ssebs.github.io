@@ -1,0 +1,110 @@
+/*TRAVEGENCY CSS, MADE BY SEBASTIAN SAFARI*/
+
+
+/*TAGS*/
+
+html {
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+body {
+    margin: auto;
+    padding: 0 5%;
+    width: 800px;
+}
+header {
+    background: url("../images/title-bg.jpg") center;
+    background-size: 100% 100%;
+    padding: 3em 0;
+    border: 3px black solid;
+    border-radius: 6px;
+    margin-top: 1em;
+    position: relative;
+    /*This is to set the phone number on the bottom of this element*/
+}
+header h1 {
+    font-size: 3em;
+    padding: 0 1em;
+}
+header h2 {
+    padding: 0 4em;
+}
+header p {
+    position: absolute;
+    /*This is to set the phone number on the bottom of this element*/
+    text-align: right;
+    bottom: 0;
+    right: 0;
+    margin: 0.5em;
+}
+main {
+    /*    background-color: white;*/
+}
+nav {}
+nav ul {
+    list-style: none;
+    margin: auto;
+    text-align: center;
+    padding: 1em;
+}
+nav li {
+    display: inline;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 1.5em;
+    background-color: darkorange;
+    padding: 10px;
+}
+section {}
+section h2 {
+    font-size: 2em;
+}
+section ul {
+    font-size: 1.5em;
+}
+section ul.float-left {
+    width: 50%;
+}
+section ul p {
+    margin: 0.25em 0;
+}
+section span img {
+    border: 3px black solid;
+    border-radius: 6px;
+}
+footer p {
+    font-size: 1em;
+}
+p {
+    font-size: 1.25em;
+}
+
+/*CLASSES*/
+
+.center {
+    margin: auto;
+}
+.center-text {
+    text-align: center;
+}
+.indent {
+    text-indent: 2em;
+}
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}
+.clear-floats {
+    clear: both;
+}
+.underline {
+    text-decoration: underline;
+}
+
+/*ID's*/
+
+#cursive-font {}
+
+/*OTHER*/
