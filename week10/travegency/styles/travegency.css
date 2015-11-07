@@ -114,6 +114,12 @@ p {
 .underline {
     text-decoration: underline;
 }
+.inline-block {
+    display: inline-block;
+}
+.no-border {
+    border: none;
+}
 
 /*ID's*/
 
@@ -150,9 +156,6 @@ p {
 #deals-big p {
     margin-bottom: 0;
 }
-
-/*OTHER*/
-
 #sf-bridge {
     border: 3px black solid;
     border-radius: 6px;
@@ -162,19 +165,31 @@ p {
     border-radius: 6px;
     margin-top: -5em;
 }
-.inline-block {
-    display: inline-block;
+#logo {
+    -moz-transition: width 0.5s;
+    transition: width 0.5s;
 }
-.no-border {
-    border: none;
+#logo:hover {
+    width: 215px;
 }
+#handshake {
+    margin-top: 3em;
+}
+
+/*OTHER ( Animations)*/
+
 nav li {
-    /*    font-size: 1em;*/
+    -moz- transition: font-size 0.5s;
     transition: font-size 0.5s;
 }
 nav li:hover {
     font-size: 2.25em;
+    -moz-transition: font-size 0.5s;
     transition: font-size 0.5s;
+}
+a {
+    -moz-transition: color 0.5s;
+    transition: color 0.5s;
 }
 a:link {
     color: white;
@@ -184,13 +199,4 @@ a:visited {
 }
 a:hover {
     color: black;
-}
-#logo {
-    transition: width 0.5s;
-}
-#logo:hover {
-    width: 215px;
-}
-#handshake {
-    margin-top: 3em;
 }
