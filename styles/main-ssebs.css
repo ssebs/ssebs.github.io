@@ -1,0 +1,280 @@
+/*
+<!-- remove favicons, add descriptions on all pages -->
+*/
+
+@charset"UTF-8";
+
+/* Main CSS, made by ssebs */
+
+
+/* Sets line height, helpful for adding nicelink*/
+
+p {
+    line-height: 1.5em;
+}
+
+/*Default font for document*/
+
+body {
+    font-family: Arial, sans-serif;
+    color: #444;
+}
+
+/*Margin for main content*/
+
+section {
+    margin: 1em 2em 1em 2em;
+}
+
+/*Keeps footer on bottom*/
+
+footer {
+    padding-top: 2em;
+    clear: both;
+}
+
+/*Image border*/
+
+img {
+    margin-top: 1em;
+    border: 3px solid rgb(65, 175, 255);
+}
+
+/*us img*/
+
+#imag {
+    margin: 0.5em;
+    float: right;
+}
+
+/*Makes a textbox*/
+
+.textBox {
+    font-size: 24px;
+}
+
+/*Indents*/
+
+.indent {
+    text-indent: 2em;
+}
+
+/*Blue background*/
+
+.blueBG {
+    background-color: rgb(65, 175, 255);
+}
+
+/*Changes line height of the title text*/
+
+#titleTxt {
+    line-height: 2em;
+}
+
+/*Preps hover trans*/
+
+#titleTxt a {
+    text-decoration: none;
+    color: #666;
+    padding: 0 1em;
+    border: 10px solid transparent;
+    transition: border 0.25s, color 0.25s;
+    -webkit-transition: border 0.25s, color 0.25s;
+    -moz-transition: border 0.25s, color 0.25s;
+}
+
+/*Hover trans*/
+
+#titleTxt a:hover {
+    color: rgb(65, 175, 255);
+    border-bottom-color: rgb(65, 175, 255);
+    border-top-color: rgb(65, 175, 255);
+}
+
+/*Blue widbackground for navs*/
+
+.bg {
+    background-color: rgb(65, 175, 255);
+    padding: 0.05em 0em 0.05em 0em;
+    font-size: 18px;
+}
+
+/*Background image*/
+
+.logo {
+    transition: width 0.5s;
+    margin-bottom: -0.35em;
+}
+
+/*Resize on hover*/
+
+.logo:hover {
+    width: 150px;
+}
+
+/*Logo, ssebs, and github */
+
+#topRow {
+    margin-top: -0.5em;
+    font-size: 72px;
+    margin-bottom: 2%;
+}
+
+/*Centers whatever uses this class*/
+
+.center {
+    margin: auto;
+    display: block;
+}
+
+/*centers text*/
+
+.centerText {
+    text-align: center;
+}
+
+/*Nav Styling*/
+
+li {
+    display: inline-block;
+    margin: 2% 1%;
+}
+
+/*Changes color of link*/
+
+li a {
+    color: white;
+    background-color: rgb(65, 175, 255);
+    padding: 0.25em;
+    border: 2px solid white;
+    text-align: center;
+    text-decoration: none;
+    transition: border 0.5s, background 0.5s;
+    -webkit-transition: border 0.5s, background 0.5s;
+    -moz-transition: border 0.5s, background 0.5s;
+}
+
+/*Color change trans*/
+
+li a:hover {
+    color: rgb(65, 175, 255);
+    border: 2px solid rgb(65, 175, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+/*Color change trans*/
+
+li a:active {
+    color: rgb(65, 175, 255);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(121, 121, 121);
+}
+
+/*Changes color of link*/
+
+.niceLink {
+    color: white;
+    background-color: rgb(65, 175, 255);
+    margin: 0em 0.2em;
+    padding: 3px;
+    border: 2px solid white;
+    text-align: center;
+    text-decoration: none;
+    transition: border 0.5s, background 0.5s;
+    -webkit-transition: border 0.5s, background 0.5s;
+    -moz-transition: border 0.5s, background 0.5s;
+}
+
+/*Color change trans*/
+
+.niceLink:hover {
+    color: rgb(65, 175, 255);
+    border: 2px solid rgb(65, 175, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+/*Color change trans*/
+
+.niceLink:active {
+    color: rgb(65, 175, 255);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(121, 121, 121);
+}
+
+/*For responsive design*/
+
+@media screen and (min-width:857px) {
+    .container {
+        width: 800px;
+    }
+}
+
+/*For responsive design*/
+
+@media screen and (max-width:857px) {
+    .container {
+        width: 100%;
+    }
+    .textBox {
+        width: 100%;
+        float: none;
+    }
+    #imag {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    li {
+        display: block;
+        margin: 1em auto;
+    }
+    ul {
+        display: inline;
+    }
+}
+
+/*For responsive design pt2*/
+
+@media screen and (max-width:620px) {
+    .logo {
+        margin: auto;
+    }
+    #titleTxt {
+        display: block;
+        text-align: center;
+        font-size: 1em;
+    }
+    .githubBtn {
+        margin: auto;
+    }
+    #nav.stick {
+        position: static;
+        top: 0;
+    }
+}
+
+/*Set Cursors*/
+
+body {
+    cursor: url("cursors/ptr.png"), auto;
+}
+a {
+    cursor: url("cursors/hand.png"), auto;
+}
+
+/*For the fixed title stuff*/
+
+#nav {
+    width: 100%;
+}
+#nav li.stick {
+    margin: 0;
+}
+#nav ul {
+    margin: 0;
+    padding: 0;
+}
+#nav.stick {
+    position: fixed;
+    top: 0;
+}
