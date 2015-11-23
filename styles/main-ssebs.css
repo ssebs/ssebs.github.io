@@ -253,17 +253,8 @@ li a:active {
     }
 }
 
-/*Set Cursors*/
-
-body {
-    cursor: url("cursors/ptr.png"), auto;
-}
-a {
-    cursor: url("cursors/hand.png"), auto;
-}
-
 /*For the fixed title stuff*/
-
+/*
 #nav {
     width: 100%;
 }
@@ -277,4 +268,4 @@ a {
 #nav.stick {
     position: fixed;
     top: 0;
-}
+}*/
