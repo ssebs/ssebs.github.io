@@ -9,9 +9,21 @@
     <link rel="stylesheet" type="text/css" href="styles/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <style>
         li {
             display: block;
+        }
+        
+        @media screen and (max-width:620px) {
+            ul {
+                background-color: red;
+                margin-right: 20em;
+            }
+            #imag {
+                margin: auto;
+                width: 80%;
+            }
         }
 
     </style>
@@ -20,28 +32,13 @@
 <body>
     <h1 id="titleTxt" class="center centerText"><a title="Home" href="index.html">Sebastian's Home Page</a></h1>
     <div class="bg" style="height:0.5em;margin-top:1em;"></div>
-    <div>
-        <script>
-            (function() {
-                var cx = '003763603586308952203:2cj5bwfclvc';
-                var gcse = document.createElement('script');
-                gcse.type = 'text/javascript';
-                gcse.async = true;
-                gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-                    '//cse.google.com/cse.js?cx=' + cx;
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(gcse, s);
-            })();
 
-        </script>
-        <gcse:search></gcse:search>
-    </div>
     <section>
         <div class="container" style="margin:auto;">
             <p class="indent textBox">I have made a small list of my progress throughout the weeks in DMIS21a (Web Dev I). Follow the links to see the pages.</p>
-
+            <img title="Me" id="imag" class="center" src="me.jpg" width="300px" alt="me" style="float:right;margin-bottom:1em;">
             <ul>
-                <img title="Me" id="imag" class="center" src="me.jpg" width="300px" alt="me" style="float:right;margin-bottom:1em;">
+
                 <li>
                     <a title="Week 1" href="week1/index.html">Week 1</a> First Quiz
                 </li>

@@ -1,5 +1,5 @@
 /*
-<!-- remove favicons, add descriptions on all pages -->
+<!-- remove favicons -->
 */
 
 @charset"UTF-8";
@@ -201,7 +201,7 @@ li a:active {
     background-color: rgb(121, 121, 121);
 }
 
-/*For responsive design*/
+/*For responsive design, largest*/
 
 @media screen and (min-width:857px) {
     .container {
@@ -209,7 +209,7 @@ li a:active {
     }
 }
 
-/*For responsive design*/
+/*For responsive design mid*/
 
 @media screen and (max-width:857px) {
     .container {
@@ -222,7 +222,8 @@ li a:active {
     #imag {
         display: block;
         margin: auto;
-        width: 100%;
+        width: 40%;
+        float: none;
     }
     li {
         display: block;
@@ -233,19 +234,22 @@ li a:active {
     }
 }
 
-/*For responsive design pt2*/
+/*For responsive design small*/
 
 @media screen and (max-width:620px) {
     .logo {
         margin: auto;
+        margin-top: 1em;
+        margin-bottom: -0.5em;
+    }
+    .logo.git {
+        margin-top: -0.5em;
+        margin-bottom: 0em;
     }
     #titleTxt {
         display: block;
         text-align: center;
         font-size: 1em;
-    }
-    .githubBtn {
-        margin: auto;
     }
 }
 
