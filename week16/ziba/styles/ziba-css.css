@@ -1,0 +1,143 @@
+html {
+    color: white;
+}
+
+/*for the image gallery*/
+
+iframe {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    border: none;
+}
+header {
+    background-color: darkred;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-bottom: 1em;
+}
+h1 {
+    font-size: 3em;
+    display: inline-block;
+}
+h1.font {
+    margin: -0.1em;
+    display: block;
+}
+h2 {
+    display: inline;
+}
+h3 {
+    margin-top: -1em;
+    text-align: right;
+}
+nav {}
+nav li {
+    display: inline-block;
+    padding: 0.25em;
+    border: 1px solid white;
+}
+nav ul {
+    font-size: 1.5em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+section {
+    color: darkred;
+    text-align: center;
+    margin-right: 1em;
+}
+footer {
+    background-color: darkred;
+    text-align: center;
+    padding: 1em;
+    clear: both;
+}
+
+/*sets block elements to center*/
+
+.center {
+    margin: auto;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.bar {
+    width: 100%;
+    height: 10px;
+    background-color: darkred;
+    margin-bottom: 1em;
+}
+.current {
+    color: yellow;
+}
+.font {
+    font-family: myFont;
+    font-size: 4em;
+    color: darkred;
+    text-align: center;
+}
+.col-75-perc {
+    float: left;
+    width: 100%;
+}
+.col-25-perc {
+    float: left;
+    width: 100%
+}
+
+/*IDS*/
+
+#open-table {
+    margin: auto;
+    width: 170px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+}
+a:hover,
+a:active {
+    color: yellow;
+}
+
+/*Responsive*/
+
+section {
+    width: 90%;
+    margin: auto;
+}
+@media screen and (min-width: 900px) {
+    .container {
+        width: 900px;
+        margin: auto;
+    }
+    iframe {
+        width: 480px;
+        height: 440px;
+    }
+    .col-75-perc {
+        float: left;
+        width: 75%;
+    }
+    .col-25-perc {
+        float: left;
+        width: 25%
+    }
+}
+@media screen and (max-width: 600px) {
+    nav li {
+        display: block;
+    }
+}
+@font-face {
+    font-family: myFont;
+    src: url("/week16/ziba/styles/font.ttf");
+}
