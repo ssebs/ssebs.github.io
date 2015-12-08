@@ -7,9 +7,10 @@
     <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
     <link rel="stylesheet" type="text/css" href="styles/ziba-css.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts/menu-button.js"></script>
 </head>
 
-<body>
+<body onresize="resizeEvent()">
     <header>
         <div class="container">
             <h1>Ziba &#124;</h1>
@@ -17,7 +18,8 @@
             <h3>(408) 267-1288
         4628 Meridian Ave San Jose, CA 95124
         </h3>
-            <nav>
+            <button onclick="func()">Menu</button>
+            <nav id="button">
                 <ul>
                     <li><a href="index.html" title="Home" class="current">Home</a></li>
                     <li><a href="about.html" title="About">About</a> </li>
@@ -38,7 +40,6 @@
     <div class="container">
 
         <section class="col-75-perc">
-
 
             <iframe src="cssslider.html" width="360" height="440" class="center" scrolling="no">iframe not supported</iframe>
 

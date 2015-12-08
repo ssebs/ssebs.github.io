@@ -114,6 +114,12 @@ section {
     width: 90%;
     margin: auto;
 }
+button {
+    display: none;
+}
+#button {
+    display: block;
+}
 @media screen and (min-width: 900px) {
     .container {
         width: 900px;
@@ -122,6 +128,9 @@ section {
     iframe {
         width: 480px;
         height: 440px;
+    }
+    #button {
+        display: block;
     }
     .col-75-perc {
         float: left;
@@ -135,6 +144,14 @@ section {
 @media screen and (max-width: 600px) {
     nav li {
         display: block;
+    }
+    #button {
+        display: none;
+    }
+    button {
+        display: block;
+        color: yellow;
+        background-color: darkred;
     }
 }
 @font-face {
