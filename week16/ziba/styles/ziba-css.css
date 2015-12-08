@@ -51,6 +51,9 @@ section {
     text-align: center;
     margin-right: 1em;
 }
+section h2 {
+    font-size: 2em;
+}
 footer {
     background-color: darkred;
     text-align: center;
@@ -91,12 +94,18 @@ footer {
     float: left;
     width: 100%
 }
+.border {
+    border: 3px darkred solid;
+}
 
 /*IDS*/
 
 #open-table {
     margin: auto;
     width: 170px;
+}
+#map {
+    display: none;
 }
 a {
     text-decoration: none;
@@ -139,6 +148,9 @@ button {
     .col-25-perc {
         float: left;
         width: 25%
+    }
+    #map {
+        display: block;
     }
 }
 @media screen and (max-width: 600px) {
