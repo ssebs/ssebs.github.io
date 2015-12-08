@@ -54,11 +54,30 @@ section {
 section h2 {
     font-size: 2em;
 }
+section p {
+    font-size: 1.5em;
+}
+section a {
+    color: black;
+    text-decoration: underline;
+}
+section a:hover {
+    color: darkred;
+}
 footer {
     background-color: darkred;
     text-align: center;
     padding: 1em;
     clear: both;
+}
+p {
+    text-align: left;
+    font-size: 1.15em;
+    text-indent: 2em;
+    color: darkred;
+}
+footer p {
+    text-indent: 0;
 }
 
 /*sets block elements to center*/
@@ -94,8 +113,21 @@ footer {
     float: left;
     width: 100%
 }
+.col-50-perc {
+    float: left;
+    width: 100%
+}
 .border {
     border: 3px darkred solid;
+}
+.left-just {
+    text-align: left;
+}
+.clear {
+    clear: both;
+}
+.m-top {
+    margin-top: 1.5em;
 }
 
 /*IDS*/
@@ -148,6 +180,10 @@ button {
     .col-25-perc {
         float: left;
         width: 25%
+    }
+    .col-50-perc {
+        float: left;
+        width: 50%;
     }
     #map {
         display: block;
