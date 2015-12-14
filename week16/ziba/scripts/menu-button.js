@@ -11,10 +11,10 @@
             }
         }
 
-        function resizeEvent() {
-            if (screen.width > 600) {
-                document.getElementById("button").style.display = "block";
-            } else {
-                document.getElementById("button").style.display = "none";
-            }
-        }
+//        function resizeEvent() {
+     //            if (screen.width > 600) {
+     //                document.getElementById("button").style.display = "block";
+     //            } else {
+     //                document.getElementById("button").style.display = "none";
+     //            }
+     //        }
