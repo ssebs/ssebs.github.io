@@ -28,17 +28,32 @@
 
     </style>
     <script type="text/javascript">
-        function func1()
+        function func1(a)
         {
-          window.location.assign("/ssebs/");// this will redirect to the /ssebs/ page
+          if(a == 1)
+          {
+              window.setTimeout(func3, 500);
+          }else{
+              window.setTimeout(func2, 1000);
+          }
         }
-        
+        function func2()
+        {
+            window.location.assign("/ssebs/");
+        }
+        function func3()
+        {
+            document.getElementById("redirecting").innerHTML = "Redirecting...";
+            func1(2);
+            
+        }
     </script>
     
 </head>
 
-<body onload="func1()">
+<body onload="func1(1)">
     <h1 id="titleTxt" class="center centerText"><a title="Home" href="index.html">Sebastian's Home Page</a></h1>
+    <div id="redirecting" class="centerText center bg" style="font-size:1.75em;color:white;"></div>
     <div class="bg" style="height:0.5em;margin-top:1em;"></div>
 
     <section>
