@@ -31,6 +31,7 @@ header {
 h1 {
     font-size: 3em;
     display: inline-block;
+    
 }
 
 /* Corrects spacing for h1 with the cutom font*/
@@ -92,13 +93,15 @@ footer {
     background-color: darkred;
     padding: 1em;
     clear: both;
-    width: 100%:
+    width: 100%;
 }
 p {
     text-align: left;
     font-size: 1.15em;
-    text-indent: 2em;
     color: darkred;
+}
+p.indent{
+    text-indent: 2em;
 }
 footer p {
     text-indent: 0;
@@ -210,9 +213,9 @@ button {
 #button {
     display: block;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1024px) {
     .container {
-        width: 900px;
+        width: 1024px;
         margin: auto;
     }
     iframe {
