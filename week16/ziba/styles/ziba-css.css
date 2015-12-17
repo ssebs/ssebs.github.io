@@ -270,6 +270,9 @@ button {
     header .container h3 {
         font-size: 0.85em;
     }
+    p.indent{
+    text-indent: 0em;
+}
 }
 
 /*Fonts*/
