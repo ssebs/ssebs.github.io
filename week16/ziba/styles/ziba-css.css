@@ -6,6 +6,12 @@
 
 /*--------ELEMENTS--------*/
 
+* {
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
 html {
     color: white;
 }
@@ -31,7 +37,6 @@ header {
 h1 {
     font-size: 3em;
     display: inline-block;
-    
 }
 
 /* Corrects spacing for h1 with the cutom font*/
@@ -100,7 +105,7 @@ p {
     font-size: 1.15em;
     color: darkred;
 }
-p.indent{
+p.indent {
     text-indent: 2em;
 }
 footer p {
@@ -117,25 +122,30 @@ footer p {
 .center {
     margin: auto;
 }
+.center-text {
+    text-align: center;
+}
 
 /*Responsive*/
 
 .container {
     width: 100%;
     padding: 0 1em;
-    -o-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 /*Bar used for styling*/
 
 .bar {
+    width: 90%;
+    height: 10px;
+    background-color: darkred;
+    margin: 1em auto 1em;
+}
+.bar100 {
     width: 100%;
     height: 10px;
     background-color: darkred;
-    margin-bottom: 1em;
+    margin: 1em auto 1em;
 }
 
 /*Current page that you're on*/
@@ -163,15 +173,29 @@ footer p {
     float: left;
     width: 100%;
 }
+.col-33-perc {
+    float: left;
+    width: 100%;
+}
 .col-50-perc {
     float: left;
     width: 100%;
+}
+.col-66-perc {
+    float: left;
+    width: 100%;
+}
+.col-50-perc p {
+    text-align: center;
 }
 
 /*Left Justification*/
 
 .left-just {
     text-align: left;
+}
+.right-just {
+    text-align: right;
 }
 .clear {
     clear: both;
@@ -182,6 +206,10 @@ footer p {
 .m-top {
     margin-top: 1.5em;
 }
+.p-sides {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
 
 /*--------IDS--------*/
 
@@ -191,6 +219,18 @@ footer p {
 }
 #map {
     display: none;
+}
+#hours {
+    width: 50%;
+    margin: auto;
+}
+#hours .col-33-perc {
+    float: left;
+    width: 50%;
+}
+#hours .col-66-perc {
+    float: left;
+    width: 50%;
 }
 
 /*Links*/
@@ -204,16 +244,16 @@ a:hover,
 a:active {
     color: yellow;
 }
+.slicknav_menu {
+    display: none;
+}
 
 /*Responsive*/
 
-button {
-    display: none;
-}
-#button {
-    display: block;
-}
 @media screen and (min-width: 1024px) {
+    .slicknav_menu {
+        display: none;
+    }
     .container {
         width: 1024px;
         margin: auto;
@@ -227,32 +267,40 @@ button {
         float: left;
         width: 75%;
     }
-    .col-25-perc {
+    .col-66-perc {
         float: left;
-        width: 25%
+        width: 66%;
     }
     .col-50-perc {
         float: left;
         width: 50%;
     }
-    #button {
-        display: block;
+    .col-33-perc {
+        float: left;
+        width: 33%;
+    }
+    .col-25-perc {
+        float: left;
+        width: 25%
     }
     #map {
         display: block;
     }
+    #hours {
+        width: 100%;
+    }
+    #hours .col-33-perc {
+        float: left;
+        width: 33%;
+    }
+    #hours .col-66-perc {
+        float: left;
+        width: 66%;
+    }
 }
 @media screen and (max-width: 650px) {
-    nav li {
-        display: block;
-    }
-    #button {
+    nav {
         display: none;
-    }
-    button {
-        display: block;
-        color: yellow;
-        background-color: darkred;
     }
     .font {
         font-size: 2em;
@@ -270,9 +318,18 @@ button {
     header .container h3 {
         font-size: 0.85em;
     }
-    p.indent{
-    text-indent: 0em;
-}
+    p.indent {
+        text-indent: 0em;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+    .col-50-perc p {
+        text-align: center;
+    }
+    #hours {
+        width: 85%;
+    }
 }
 
 /*Fonts*/
