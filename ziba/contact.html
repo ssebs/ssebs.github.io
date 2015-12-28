@@ -7,19 +7,37 @@
     <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
     <link rel="stylesheet" type="text/css" href="styles/ziba-css.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="scripts/menu-button.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/slicknav.css" />
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+    <script src="scripts/jquery.slicknav.js"></script>
+    <script>
+        $(function() {
+            $('#menu').slicknav({
+                label: "",
+                prependTo: '#anchor'
+            });
+        });
+
+    </script>
+    <style>
+        @media screen and (min-width: 1024px) {
+            #hours {
+                width: 80%;
+            }
+        }
+
+    </style>
 </head>
 
-<body onresize="resizeEvent()">
+<body>
     <header>
         <div class="container">
             <a href="index.html" title="Home"><h1>Ziba &#124;</h1>
             <h2>Persian Cuisine</h2>
             <h3>(408) 267-1288 4628 Meridian Ave San Jose, CA 95124
         </h3></a>
-             <button onclick="func()"><img src="res/nav-logo.png" alt="Nav Logo" width="32px"></button>
-            <nav id="button">
-                <ul>
+            <nav>
+                <ul id="menu">
                     <li><a href="index.html" title="Home">Home</a></li>
                     <li><a href="about.html" title="About">About</a> </li>
                     <li><a href="menu.html" title="Menu">Menu</a></li>
@@ -30,22 +48,43 @@
             </nav>
         </div>
     </header>
-
+    <div id="anchor"></div>
     <div class="container">
         <h1 class="font">Contact Us</h1>
-        <div class="bar"></div>
+        <div class="bar100"></div>
     </div>
 
     <div class="container">
 
-        <section class="col-75-perc">
+        <section class="col-50-perc">
 
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4491.0046889605765!2d-121.90090341248812!3d37.256725538211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb640d0c98bf2c370!2sZiba+Restaurant!5e0!3m2!1sen!2sus!4v1449560457370" width="400" height="300" class="center" allowfullscreen></iframe>
         </section>
-        <section class=" col-25-perc">
+        <section class="col-50-perc center-text">
             <p>Phone: 408.267.1288
-                <br/>Email: sjziba@gmail.com</p>
-
+                <br/> Email: sjziba@gmail.com</p>
+            <div id="hours">
+                <h2>Hours:</h2>
+                <p style="font-size:1.15em;">
+                    <div class="bar100"></div>
+                    <div class="col-33-perc left-just">
+                        <strong style="font-size:0.9em;">
+                        Monday:
+                        <br/> Tue - Thur:
+                        <br/> Fri - Sat:
+                        <br/> Sunday:    
+                    </strong>
+                    </div>
+                    <div class="col-66-perc left-just" style="padding-left:0.5em;">
+                        Closed
+                        <br/> 11:30 AM - &nbsp;&nbsp;9:00 PM
+                        <br/> 11:30 AM - 10:00 PM
+                        <br/> 12:00 PM - &nbsp;&nbsp;8:30 PM
+                    </div>
+                    <div class="clear" style="height:0.5em;"></div>
+                    <div class="bar100"></div>
+                </p>
+            </div>
         </section>
         <div style="height:1em;clear:both;">
         </div>

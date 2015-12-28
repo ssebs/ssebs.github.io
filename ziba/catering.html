@@ -7,19 +7,29 @@
     <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
     <link rel="stylesheet" type="text/css" href="styles/ziba-css.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="scripts/menu-button.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/slicknav.css" />
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+    <script src="scripts/jquery.slicknav.js"></script>
+    <script>
+        $(function() {
+            $('#menu').slicknav({
+                label: "",
+                prependTo: '#anchor'
+            });
+        });
+
+    </script>
 </head>
 
-<body onresize="resizeEvent()">
+<body>
     <header>
         <div class="container">
             <a href="index.html" title="Home"><h1>Ziba &#124;</h1>
             <h2>Persian Cuisine</h2>
             <h3>(408) 267-1288 4628 Meridian Ave San Jose, CA 95124
         </h3></a>
-             <button onclick="func()"><img src="res/nav-logo.png" alt="Nav Logo" width="32px"></button>
-            <nav id="button">
-                <ul>
+            <nav>
+                <ul id="menu">
                     <li><a href="index.html" title="Home">Home</a></li>
                     <li><a href="about.html" title="About">About</a> </li>
                     <li><a href="menu.html" title="Menu">Menu</a></li>
@@ -30,20 +40,24 @@
             </nav>
         </div>
     </header>
+    <div id="anchor"></div>
 
     <div class="container">
-        <h1 class="font">Ziba Restaurant</h1>
-        <div class="bar"></div>
+        <h1 class="font">Catering</h1>
+        <div class="bar100"></div>
     </div>
 
     <div class="container">
+        <p class="center" style="width:85%;font-size:1.25em">We custom tailor all of our catering menus to fit each invidividual person or event We cater private parties, corporate events, memorials, bithdays, anniversaries, any occasion big or small
+        </p>
 
         <section class="col-50-perc">
             <p style="font-size:2em;">Appetizers</p>
+
             <p><em>All appetizers are served with lavash bread
 
 </em></p>
-            <ul class="left-just">
+            <ul class="left-just center" style="width:70%;">
                 <li>Falafel Salad</li>
                 <li>Hummus</li>
                 <li>Kashe-Bademjan</li>
@@ -65,7 +79,7 @@
             <p><em>All Entr&eacute;es are served with Basmati Rice, Saffron, and Garnish
 
 </em></p>
-            <ul class="left-just">
+            <ul class="left-just center" style="width:70%;">
                 <li>Barg Kabob</li>
                 <li>Beef/Chicken Koobideh Kabob</li>
                 <li>Chicken Kabob</li>
@@ -79,9 +93,8 @@
                 <li>Veggie Kabob</li>
             </ul>
         </section>
-        <p class="clear">We custom tailor all of our catering menus to fit each invidividual person or event We cater private parties, corporate events, memorials, bithdays, anniversaries, any occasion big or small
-        </p>
-
+        <div class="clear"></div>
+        <div style="height:1em;"></div>
     </div>
 
     <footer>

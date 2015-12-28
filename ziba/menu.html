@@ -7,19 +7,29 @@
     <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
     <link rel="stylesheet" type="text/css" href="styles/ziba-css.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="scripts/menu-button.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/slicknav.css" />
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+    <script src="scripts/jquery.slicknav.js"></script>
+    <script>
+        $(function() {
+            $('#menu').slicknav({
+                label: "",
+                prependTo: '#anchor'
+            });
+        });
+
+    </script>
 </head>
 
-<body onresize="resizeEvent()">
+<body>
     <header>
         <div class="container">
             <a href="index.html" title="Home"><h1>Ziba &#124;</h1>
             <h2>Persian Cuisine</h2>
             <h3>(408) 267-1288 4628 Meridian Ave San Jose, CA 95124
         </h3></a>
-             <button onclick="func()"><img src="res/nav-logo.png" alt="Nav Logo" width="32px"></button>
-            <nav id="button">
-                <ul>
+            <nav>
+                <ul id="menu">
                     <li><a href="index.html" title="Home">Home</a></li>
                     <li><a href="about.html" title="About">About</a> </li>
                     <li><a href="menu.html" title="Menu" class="current">Menu</a></li>
@@ -30,16 +40,16 @@
             </nav>
         </div>
     </header>
-
+    <div id="anchor"></div>
     <div class="container">
         <h1 class="font">Menu</h1>
-        <div class="bar"></div>
+        <div class="bar100"></div>
     </div>
 
     <div class="container">
 
         <section>
-            <p>
+            <p class="indent">
                 View our menu in a .pdf form <a href="res/menu.pdf" title="Menu PDF">here</a>.
             </p>
 
