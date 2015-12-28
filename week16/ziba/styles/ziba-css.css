@@ -281,7 +281,7 @@ a:active {
     }
     .col-25-perc {
         float: left;
-        width: 25%
+        width: 25%;
     }
     #map {
         display: block;
@@ -304,6 +304,7 @@ a:active {
     }
     .font {
         font-size: 2em;
+        padding-top: 0.5em;
     }
     iframe {
         width: 100%;
