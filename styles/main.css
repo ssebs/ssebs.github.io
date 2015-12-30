@@ -142,7 +142,7 @@ li {
 
 /*Changes color of link*/
 
-li a {
+li a.niceLink {
     color: white;
     background-color: rgb(65, 175, 255);
     padding: 0.25em;
@@ -207,6 +207,12 @@ li a:active {
     .container {
         width: 800px;
     }
+    #menu{
+        display:block;
+    }
+    .slicknav_menu {
+	display:none;
+    }
 }
 
 /*For responsive design mid*/
@@ -232,6 +238,24 @@ li a:active {
     ul {
         display: inline;
     }
+    nav.bg {
+        display:none;
+    }
+    
+    .logo,
+    #titleTxt,
+    #topRow a{
+        display:block;
+        margin:auto;
+    }
+   .logo {
+        margin-top: 1em;
+        margin-bottom: -0.5em;
+    }
+     .logo.git {
+        margin-top: -0.5em;
+        margin-bottom: 0em;
+    }
 }
 
 /*For responsive design small*/
@@ -249,25 +273,12 @@ li a:active {
     #titleTxt {
         display: block;
         text-align: center;
-        font-size: 1em;
+        font-size: 0.75em;
     }
-}
-
-/*Set Cursors*/
-
-body {
-    cursor: url("cursors/ptr.png"), auto;
-}
-a {
-    cursor: url("cursors/hand.png"), auto;
 }
 
 /*For the fixed title stuff*/
 
 #nav {
     width: 100%;
-}
-#nav.stick {
-    position: fixed;
-    top: 0;
 }

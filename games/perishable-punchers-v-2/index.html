@@ -9,6 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="ssebs game developers, not a company, but still.">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+ <link rel="stylesheet" href="../../styles/slicknav.css" />
+    <script src="../../scripts/jquery.slicknav.min.js"></script>
+    <script>
+        $(function() {
+            $('#menu').slicknav();
+        });
+    </script>
 </head>
 
 <body>
@@ -19,14 +27,14 @@
             <a href="http://github.com/ssebs/"> <img style="border:none;" class="logo git" src="../../images/github.png" alt="Github" width="100px"> </a>
         </div>
     </header>
-     <nav class="bg center centerText" id="nav">
-        <ul>
-            <li><a title="Android" href="../../android/index.html">Android</a></li>
-            <li><a title="Breakout Pong" href="../../games/breakout-pong/index.html">Breakout Pong</a></li>
-            <li><a title="A Platformer of Some Sort" href="../../games/platformer/index.html">Platformer</a></li>
-            <li><a title="Sir Flap A Lot" href="../../games/sir-flap-a-lot/index.html">Sir Flap Alot</a></li>
-            <li><a title="Perishable Punchers" href="../../games/perishable-punchers/index.html">Perishable Punchers</a></li>
-            <li><a title="Perishable Punchers V2" href="../../games/perishable-punchers-v-2/index.html">Perishable Punchers V.2</a></li>
+     <nav class="bg center centerText">
+        <ul id="menu">
+            <li><a class="niceLink" title="Android" href="../../android/index.html">Android</a></li>
+            <li><a class="niceLink" title="Breakout Pong" href="../../games/breakout-pong/index.html">Breakout Pong</a></li>
+            <li><a class="niceLink" title="A Platformer of Some Sort" href="../../games/platformer/index.html">Platformer</a></li>
+            <li><a class="niceLink" title="Sir Flap A Lot" href="../../games/sir-flap-a-lot/index.html">Sir Flap Alot</a></li>
+            <li><a class="niceLink" title="Perishable Punchers" href="../../games/perishable-punchers/index.html">Perishable Punchers</a></li>
+            <li><a class="niceLink" title="Perishable Punchers V2" href="../../games/perishable-punchers-v-2/index.html">Perishable Punchers V.2</a></li>
         </ul>
     </nav>
 
@@ -53,15 +61,15 @@ Available for Android!</a>
         <div class="bg center centerText">
             <ul>
                 <li>
-                    <a title="Contact us" href="../../contact.html">Contact</a>
+                    <a class="niceLink" title="Contact us" href="../../contact.html">Contact</a>
                 </li>
 
                 <li>
-                    <a title="Suggest a game" href="mailto:ssebs@ymail.com">Suggest a game</a>
+                    <a class="niceLink" title="Suggest a game" href="mailto:ssebs@ymail.com">Suggest a game</a>
                 </li>
 
                 <li>
-                    <a title="List of all games" href="../index.html">List of all games</a>
+                    <a class="niceLink" title="List of all games" href="../index.html">List of all games</a>
                 </li>
             </ul>
         </div>
