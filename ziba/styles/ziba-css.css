@@ -14,9 +14,11 @@
 }
 html {
     color: white;
+    background-color: darkred;
 }
 body {
     width: 100%;
+    background-color: #FFF;
 }
 
 /*for the image gallery*/
