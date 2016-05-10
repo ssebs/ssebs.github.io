@@ -4,7 +4,19 @@
 <head>
     <title> ssebs software</title>
     
-    <meta http-equiv="refresh" content="0; url=http://ssebs.noip.me/" />
+    <!--<meta http-equiv="refresh" content="0; url=http://ssebs.noip.me/" />-->
+    
+    
+    <script>
+    function functionError() {
+        alert("Redirect Site is not up.");
+    }
+    
+    function redir() {
+        window.location.replace("http://ssebs.noip.me/");
+    }
+</script>
+    
     
     
     <meta charset="utf-8">
@@ -32,6 +44,8 @@
 </head>
 
 <body>
+    <img src="http://ssebs.noip.me/favicon.ico" style="width:0;height:0;visiblity:hidden;position:absolute;" onerror="functionError()" onload="redir()">
+    
     <header>
         <div style="clear:both;width:100%;height:5px;"></div>
         <div id="topRow" class="center centerText">
