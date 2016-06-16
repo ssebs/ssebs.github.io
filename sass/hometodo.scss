@@ -1,10 +1,10 @@
 // Variables
-$primaryColor: #41AFFF;
-
+$primaryColor: #333;
+$primaryColorTrans: rgba(51,51,51,.75);
 // SASS
 
 html {
-  background: url('../img/bg.jpg') $primaryColor;
+  background: url('../img/bg.jpg') $primaryColorTrans;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -46,7 +46,7 @@ h1 {
 .bar {
   width: 100%;
   height: 100px;
-  background-color: $primaryColor;
+  background-color: $primaryColorTrans;
   text-align: center;
   font-weight: bold;
   padding-top: 50px;
