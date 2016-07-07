@@ -416,8 +416,8 @@ ul {
 .secondary-color {
   background-color: #1c5fae; }
 
-#certs, #contact {
-  padding-top: 0; }
+#services {
+  padding-bottom: 0; }
 
 .container-90 {
   width: 90%; }
