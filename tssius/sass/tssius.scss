@@ -232,6 +232,16 @@ section.success a.active {
     section.first {
         padding-top: 75px;
     }
+    .navbar-brand {
+        font-size:1em;
+    }
+}
+
+@media(max-width:386px) {
+    .navbar-brand {
+        font-size:0.5em;
+    }
+    
 }
 
 #services .services-item {

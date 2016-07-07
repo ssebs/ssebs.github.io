@@ -177,7 +177,13 @@ section.success a.active {
     padding: 75px 0; }
 
   section.first {
-    padding-top: 75px; } }
+    padding-top: 75px; }
+
+  .navbar-brand {
+    font-size: 1em; } }
+@media (max-width: 386px) {
+  .navbar-brand {
+    font-size: 0.5em; } }
 #services .services-item {
   right: 0;
   margin: 0 0 15px; }
