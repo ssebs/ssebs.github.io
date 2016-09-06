@@ -70,15 +70,6 @@ hr.star-primary:after {
   color: #1c5fae;
   background-color: #fff; }
 
-hr.primary {
-  margin: 15px auto 15px;
-  padding: 0;
-  max-width: 250px;
-  border: 0;
-  border-top: solid 5px;
-  text-align: center;
-  border-color: #010080; }
-
 .img-centered {
   margin: 0 auto; }
 
@@ -115,7 +106,7 @@ header .intro-text .skills {
     font-size: 4.0em; }
 
   header .intro-text .skills {
-    font-size: 1.95em; } }
+    font-size: 1.75em; } }
 @media (min-width: 768px) {
   .navbar-fixed-top {
     padding: 25px 0;
@@ -448,4 +439,4 @@ ul {
 #about {
   padding-bottom: 0; }
 
-/*# sourceMappingURL=tssius.css.map */
+/*# sourceMappingURL=tssius.css[A.map */

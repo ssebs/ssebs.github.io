@@ -13,6 +13,7 @@ $secondaryColor: #1c5fae;
 $darkHighlightColor: #222;
 $lightColor: #fff;
 $darkColor: #888;
+$mainFont: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 
 // Custom css at bottom
 
@@ -45,7 +46,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $mainFont;
     font-weight: 700;
 }
 h2{
@@ -93,6 +94,15 @@ hr.star-primary:after {
     color: $secondaryColor;
     background-color: $lightColor;
 }
+hr.primary {
+    margin: 15px auto 15px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+    border-color:$primaryColor;
+}
 
 .img-centered {
     margin: 0 auto;
@@ -117,7 +127,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $mainFont;
     font-size: 2em;
     font-weight: 700;
 }
@@ -138,7 +148,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .skills {
-        font-size: 1.75em;
+        font-size: 1.95em;
     }
 }
 
@@ -168,7 +178,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $mainFont;
     font-weight: 700;
 }
 
@@ -525,31 +535,21 @@ ul {
 }
 .container-90 {
     width:90%;
+    margin:auto;
+}
+.container-80 {
+    width:80%;
+    margin:auto;
 }
 .wht {
     color:white;
     margin:0;
     padding:100px 0px;
-    
+    background-color:$secondaryColor;
 }
 #about h2{
     color:white;
 }
 #about {
     padding-bottom:0;
-}
-.triangle {
-	position: relative;
-}
-.triangle:after{
-	border-top: 50px solid #010080;
-    border-left: 60px solid transparent; 
-    border-right: 60px solid transparent; 
-    bottom: -50px;
-    content: "";
-    position: absolute;
-    left: 45%;
-    margin-left: 0px;
-    width: 0; 
-    height: 0;
 }
