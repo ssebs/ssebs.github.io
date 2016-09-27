@@ -1,0 +1,278 @@
+.
+├── BingSiteAuth.xml
+├── README.md
+├── css
+│   ├── bootstrap.css
+│   ├── bootstrap.min.css
+│   ├── freelancer.css
+│   ├── hometodo.css
+│   ├── hometodo.css.map
+│   ├── ssebs.css
+│   └── ssebs.css.map
+├── favicon.ico
+├── font-awesome
+│   ├── css
+│   │   ├── font-awesome.css
+│   │   └── font-awesome.min.css
+│   ├── fonts
+│   │   ├── FontAwesome.otf
+│   │   ├── fontawesome-webfont.eot
+│   │   ├── fontawesome-webfont.svg
+│   │   ├── fontawesome-webfont.ttf
+│   │   └── fontawesome-webfont.woff
+│   ├── less
+│   │   ├── bordered-pulled.less
+│   │   ├── core.less
+│   │   ├── fixed-width.less
+│   │   ├── font-awesome.less
+│   │   ├── icons.less
+│   │   ├── larger.less
+│   │   ├── list.less
+│   │   ├── mixins.less
+│   │   ├── path.less
+│   │   ├── rotated-flipped.less
+│   │   ├── spinning.less
+│   │   ├── stacked.less
+│   │   └── variables.less
+│   └── scss
+│       ├── _bordered-pulled.scss
+│       ├── _core.scss
+│       ├── _fixed-width.scss
+│       ├── _icons.scss
+│       ├── _larger.scss
+│       ├── _list.scss
+│       ├── _mixins.scss
+│       ├── _path.scss
+│       ├── _rotated-flipped.scss
+│       ├── _spinning.scss
+│       ├── _stacked.scss
+│       ├── _variables.scss
+│       ├── font-awesome.css
+│       ├── font-awesome.css.map
+│       └── font-awesome.scss
+├── fonts
+│   ├── glyphicons-halflings-regular.eot
+│   ├── glyphicons-halflings-regular.svg
+│   ├── glyphicons-halflings-regular.ttf
+│   ├── glyphicons-halflings-regular.woff
+│   └── glyphicons-halflings-regular.woff2
+├── games
+│   ├── APlatformerOfSomeSort.jar
+│   ├── BreakoutPong.jar
+│   ├── PerishablePunchers.jar
+│   ├── PerishablePunchersV2.jar
+│   └── SirFlapAlot.jar
+├── giving-tree
+│   ├── android-icon-192x192.png
+│   ├── android-icon-72x72.png
+│   ├── apple-icon-120x120.png
+│   ├── apple-icon-180x180.png
+│   ├── favicon-16x16.png
+│   ├── favicon-32x32.png
+│   ├── favicon-96x96.png
+│   ├── favicon.ico
+│   ├── font-awesome
+│   │   ├── css
+│   │   │   ├── font-awesome.css
+│   │   │   └── font-awesome.min.css
+│   │   ├── fonts
+│   │   │   ├── FontAwesome.otf
+│   │   │   ├── fontawesome-webfont.eot
+│   │   │   ├── fontawesome-webfont.svg
+│   │   │   ├── fontawesome-webfont.ttf
+│   │   │   └── fontawesome-webfont.woff
+│   │   ├── less
+│   │   │   ├── bordered-pulled.less
+│   │   │   ├── core.less
+│   │   │   ├── fixed-width.less
+│   │   │   ├── font-awesome.less
+│   │   │   ├── icons.less
+│   │   │   ├── larger.less
+│   │   │   ├── list.less
+│   │   │   ├── mixins.less
+│   │   │   ├── path.less
+│   │   │   ├── rotated-flipped.less
+│   │   │   ├── spinning.less
+│   │   │   ├── stacked.less
+│   │   │   └── variables.less
+│   │   └── scss
+│   │       ├── _bordered-pulled.scss
+│   │       ├── _core.scss
+│   │       ├── _fixed-width.scss
+│   │       ├── _icons.scss
+│   │       ├── _larger.scss
+│   │       ├── _list.scss
+│   │       ├── _mixins.scss
+│   │       ├── _path.scss
+│   │       ├── _rotated-flipped.scss
+│   │       ├── _spinning.scss
+│   │       ├── _stacked.scss
+│   │       ├── _variables.scss
+│   │       ├── font-awesome.css
+│   │       ├── font-awesome.css.map
+│   │       └── font-awesome.scss
+│   ├── fonts
+│   │   ├── glyphicons-halflings-regular.eot
+│   │   ├── glyphicons-halflings-regular.svg
+│   │   ├── glyphicons-halflings-regular.ttf
+│   │   ├── glyphicons-halflings-regular.woff
+│   │   └── glyphicons-halflings-regular.woff2
+│   ├── img
+│   │   ├── bg.jpg
+│   │   ├── bg2.jpg
+│   │   ├── kids-bg.jpg
+│   │   ├── logo-512.png
+│   │   ├── services
+│   │   │   ├── 1.png
+│   │   │   ├── 2.png
+│   │   │   ├── 3.png
+│   │   │   ├── 4.png
+│   │   │   ├── 5.png
+│   │   │   └── 6.png
+│   │   └── tree-bg.jpg
+│   ├── index.html
+│   ├── js
+│   │   ├── bootstrap.js
+│   │   ├── bootstrap.min.js
+│   │   ├── cbpAnimatedHeader.js
+│   │   ├── cbpAnimatedHeader.min.js
+│   │   ├── classie.js
+│   │   ├── contact_me.js
+│   │   ├── freelancer.js
+│   │   ├── jqBootstrapValidation.js
+│   │   ├── jquery.js
+│   │   └── parallax.min.js
+│   └── style
+│       ├── giving-tree.css
+│       ├── giving-tree.css.map
+│       └── giving-tree.scss
+├── google93627ac006eb2f7f.html
+├── hometodo.html
+├── img
+│   ├── ShibaScarf.jpg
+│   ├── bg.jpg
+│   ├── bg2.jpg
+│   ├── portfolio
+│   │   ├── bp.png
+│   │   ├── plat.png
+│   │   ├── pp1.png
+│   │   ├── pp2.png
+│   │   ├── sfa.png
+│   │   └── wt.png
+│   └── ssebsCircle.png
+├── index.html
+├── js
+│   ├── bootstrap.js
+│   ├── bootstrap.min.js
+│   ├── cbpAnimatedHeader.js
+│   ├── cbpAnimatedHeader.min.js
+│   ├── classie.js
+│   ├── contact_me.js
+│   ├── freelancer.js
+│   ├── jqBootstrapValidation.js
+│   ├── jquery.js
+│   └── parallax.min.js
+├── sass
+│   ├── hometodo.css
+│   ├── hometodo.css.map
+│   ├── hometodo.scss
+│   ├── ssebs.css
+│   ├── ssebs.css.map
+│   └── ssebs.scss
+├── tree.txt
+└── tssius
+    ├── android-icon-192x192.png
+    ├── android-icon-72x72.png
+    ├── apple-icon-120x120.png
+    ├── apple-icon-180x180.png
+    ├── css
+    │   ├── tssius.css
+    │   ├── tssius.css.map
+    │   ├── tssius.css[A
+    │   └── tssius.css[A.map
+    ├── favicon-16x16.png
+    ├── favicon-32x32.png
+    ├── favicon-96x96.png
+    ├── favicon.ico
+    ├── font-awesome
+    │   ├── css
+    │   │   ├── font-awesome.css
+    │   │   └── font-awesome.min.css
+    │   ├── fonts
+    │   │   ├── FontAwesome.otf
+    │   │   ├── fontawesome-webfont.eot
+    │   │   ├── fontawesome-webfont.svg
+    │   │   ├── fontawesome-webfont.ttf
+    │   │   └── fontawesome-webfont.woff
+    │   ├── less
+    │   │   ├── bordered-pulled.less
+    │   │   ├── core.less
+    │   │   ├── fixed-width.less
+    │   │   ├── font-awesome.less
+    │   │   ├── icons.less
+    │   │   ├── larger.less
+    │   │   ├── list.less
+    │   │   ├── mixins.less
+    │   │   ├── path.less
+    │   │   ├── rotated-flipped.less
+    │   │   ├── spinning.less
+    │   │   ├── stacked.less
+    │   │   └── variables.less
+    │   └── scss
+    │       ├── _bordered-pulled.scss
+    │       ├── _core.scss
+    │       ├── _fixed-width.scss
+    │       ├── _icons.scss
+    │       ├── _larger.scss
+    │       ├── _list.scss
+    │       ├── _mixins.scss
+    │       ├── _path.scss
+    │       ├── _rotated-flipped.scss
+    │       ├── _spinning.scss
+    │       ├── _stacked.scss
+    │       ├── _variables.scss
+    │       ├── font-awesome.css
+    │       ├── font-awesome.css.map
+    │       └── font-awesome.scss
+    ├── fonts
+    │   ├── glyphicons-halflings-regular.eot
+    │   ├── glyphicons-halflings-regular.svg
+    │   ├── glyphicons-halflings-regular.ttf
+    │   ├── glyphicons-halflings-regular.woff
+    │   └── glyphicons-halflings-regular.woff2
+    ├── img
+    │   ├── Logo.ai
+    │   ├── bg.jpg
+    │   ├── bg2.jpg
+    │   ├── certs
+    │   │   ├── ISO-14001.png
+    │   │   ├── ISO-9001.png
+    │   │   ├── OHSAS.png
+    │   │   ├── R2.png
+    │   │   ├── WirelessExpo2016.jpg
+    │   │   └── ctia2016.png
+    │   ├── locations.jpg
+    │   ├── services
+    │   │   ├── 1.png
+    │   │   ├── 2.png
+    │   │   ├── 3.png
+    │   │   ├── 4.png
+    │   │   ├── 5.png
+    │   │   └── 6.png
+    │   └── tssi-logo512.png
+    ├── index.html
+    ├── js
+    │   ├── bootstrap.js
+    │   ├── bootstrap.min.js
+    │   ├── cbpAnimatedHeader.js
+    │   ├── cbpAnimatedHeader.min.js
+    │   ├── classie.js
+    │   ├── contact_me.js
+    │   ├── freelancer.js
+    │   ├── jqBootstrapValidation.js
+    │   ├── jquery.js
+    │   └── parallax.min.js
+    └── sass
+        └── tssius.scss
+
+36 directories, 239 files
